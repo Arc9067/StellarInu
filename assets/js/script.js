@@ -1,5 +1,8 @@
 let imageToChange = document.querySelector(".home-logo");
 var header = document.querySelector("#header");
+let loading = document.getElementById("loading");
+AOS.init();
+
 
 window.addEventListener("load", () => {
   var deviceWidth = window.innerWidth;
@@ -23,4 +26,8 @@ window.addEventListener("scroll", () => {
   } else {
     header.style.backgroundColor = "transparent";
   }
+});
+
+window.addEventListener("load", () => {
+  loading.style.display = "none";
 });

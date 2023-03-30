@@ -81,6 +81,36 @@ img {
   color: var(--second-color);
 }
 /*===== CLASS CSS ===== */
+#loading {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--second-color);
+  position: fixed;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  overflow-x: hidden;
+
+  .in {
+    height: 12rem;
+    width: 12rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid transparent;
+    // border-top-color: var(--second-color);
+    animation: scale 2s linear alternate infinite;
+  }
+  @keyframes scale {
+    50% {
+      scale: 2;
+      border-color: var(--first-color);
+    }
+  }
+}
+
 header {
   // min-height: 100px;
   width: 100%;

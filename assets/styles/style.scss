@@ -169,6 +169,7 @@ header {
 #hero {
   width: 100%;
   padding-block-end: 100px;
+  overflow-x: hidden;
 
   .container {
     .row {
@@ -238,11 +239,13 @@ header {
 
 main {
   width: 100%;
+  overflow-x: hidden;
 
   #features {
     width: 100%;
     padding-block: 50px;
     font-family: "Work Sans", sans-serif;
+    overflow-x: hidden;
 
     h1.title {
       font-family: "Work Sans", sans-serif;
@@ -274,6 +277,7 @@ main {
   #info {
     width: 100%;
     padding-block: 50px;
+    overflow-x: hidden;
 
     .container {
       h1.title {
@@ -317,6 +321,7 @@ main {
   #tokenomics {
     width: 100%;
     padding-block: 50px;
+    overflow-x: hidden;
 
     @media (max-width: 600px) {
       h1.title {
@@ -399,6 +404,7 @@ main {
 footer {
   width: 100%;
   padding-block: 50px;
+  overflow-x: hidden;
 
   .copy-right {
     font-weight: 400;

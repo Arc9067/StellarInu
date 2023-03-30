@@ -159,6 +159,7 @@ header .container .nav-ul ul li a {
   width: 100%;
   -webkit-padding-after: 100px;
           padding-block-end: 100px;
+  overflow-x: hidden;
 }
 #hero .container .row .hero-txt {
   padding-block: 100px;
@@ -218,11 +219,13 @@ header .container .nav-ul ul li a {
 
 main {
   width: 100%;
+  overflow-x: hidden;
 }
 main #features {
   width: 100%;
   padding-block: 50px;
   font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
 }
 main #features h1.title {
   font-family: "Work Sans", sans-serif;
@@ -244,6 +247,7 @@ main #features .row div p {
 main #info {
   width: 100%;
   padding-block: 50px;
+  overflow-x: hidden;
 }
 main #info .container h1.title {
   font-weight: 700;
@@ -279,6 +283,7 @@ main #info .container ul li {
 main #tokenomics {
   width: 100%;
   padding-block: 50px;
+  overflow-x: hidden;
 }
 @media (max-width: 600px) {
   main #tokenomics h1.title {
@@ -353,6 +358,7 @@ main #tokenomics .in-row div h3 {
 footer {
   width: 100%;
   padding-block: 50px;
+  overflow-x: hidden;
 }
 footer .copy-right {
   font-weight: 400;
